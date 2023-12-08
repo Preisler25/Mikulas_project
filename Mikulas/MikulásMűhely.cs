@@ -11,7 +11,7 @@ namespace Mikulas
         public MikulásMűhely(string műhelyvezető)
         {
             AjándékLista = new List<Ajándék>();
-            AjándékTömb = new Ajándék[100]; // Például 100 elemű tömböt létrehozunk
+            AjándékTömb = new Ajándék[100];
             Műhelyvezető = műhelyvezető;
             MűhelyNyitva = false;
         }
